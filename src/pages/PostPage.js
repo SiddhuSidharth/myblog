@@ -9,7 +9,7 @@ export default function PostPage() {
   const { userInfo } = useContext(UserContext);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/post/${id}`)
+    fetch(`https://myblog-api-xjlk.onrender.com/${id}`)
       .then((response) => {
         response.json().then((postInfo) => {
           setPostInfo(postInfo);
@@ -46,7 +46,7 @@ export default function PostPage() {
         </div>
       )}
       <div className="image">
-        <img src={`http://localhost:5000/${postInfo.cover}`} alt="" />
+        <img src={`https://myblog-api-xjlk.onrender.com/${postInfo.cover}`} alt="" />
       </div>
       <div
         className="content"
