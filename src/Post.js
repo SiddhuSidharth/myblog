@@ -10,7 +10,7 @@ export default function Post({_id,author,title,summary,cover,content,createdAt})
 
         <Link to={`/post/${_id}`}>
         
-           <img src={'http://localhost:5000/'+cover} alt="tt"/>
+           <img src={'https://myblog-api-xjlk.onrender.com/'+cover} alt="tt"/>
            
         </Link>
 
