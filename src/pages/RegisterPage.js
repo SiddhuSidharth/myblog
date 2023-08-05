@@ -6,7 +6,7 @@ export default function RegisterPage(){
         ev.preventDefault();
         
             //fetching the response from the index.js(port 5000) after registring 
-       const response = await fetch('http://localhost:5000/register',{
+       const response = await fetch('https://myblog-api-xjlk.onrender.com/register',{
                   method:'POST',
                   body: JSON.stringify({username,password}),
                   headers:{'Content-Type':'application/json' },
