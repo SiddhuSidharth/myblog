@@ -3,7 +3,7 @@ import {useEffect,useState} from 'react';
 export default function IndexPage(){
       const [posts,setPosts] = useState([]);
       useEffect(() =>{
-            fetch('http://localhost:5000/post').then(response =>{
+            fetch('https://myblog-api-xjlk.onrender.com/post').then(response =>{
                   //grabing all the posts from the database
                   response.json().then(posts=>{
                         setPosts(posts);
