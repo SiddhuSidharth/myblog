@@ -11,4 +11,4 @@ Edit and Update: Made a mistake or want to update your post? No problem! The pla
 View All Posts: Users can view a list of all their posts in one place. This makes it easy to keep track of your content and access posts for further editing or sharing.
 
 Responsive Design: Access your blog and manage your posts from any device. Our responsive design ensures a seamless experience whether you're using a desktop, tablet, or smartphone.
-The server code is in a seperate repository : ""
+The server code is in a seperate repository : "https://github.com/SiddhuSidharth/myblog-api"
